@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+venv/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+lib/
+lib64/
+MANIFEST
+
+# EZKL
+train/src/cal_data.json
+train/src/calibration.json
+train/src/input.json
+train/src/lstmwitness.json
+train/src/network.compiled
+train/src/network.ezkl
+train/src/network.onnx
+train/src/proof.json
+train/src/settings.json
+train/src/test.pf
+train/src/test.pk
+train/src/test.vk
+train/src/Verifier.abi
+train/src/Verifier.sol
+train/src/witness.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
