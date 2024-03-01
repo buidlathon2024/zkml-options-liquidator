@@ -11,21 +11,7 @@ lib64/
 MANIFEST
 
 # EZKL
-train/src/cal_data.json
-train/src/calibration.json
-train/src/input.json
-train/src/lstmwitness.json
-train/src/network.compiled
-train/src/network.ezkl
-train/src/network.onnx
-train/src/proof.json
-train/src/settings.json
-train/src/test.pf
-train/src/test.pk
-train/src/test.vk
-train/src/Verifier.abi
-train/src/Verifier.sol
-train/src/witness.json
+train/src/saved_models/
 
 # OS generated files
 .DS_Store
