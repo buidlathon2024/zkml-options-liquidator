@@ -4,7 +4,9 @@
 
 ## Demo
 
-The YouTube video is [here](https://youtu.be/XTA-R8yXP2E). The downloadable video is [here](./demo/ZKML%20Options%20Liquidations.m4v).
+The YouTube video is [here](https://youtu.be/XTA-R8yXP2E).
+
+The testnet deployment addresses can be found [here](./demo/DEPLOYMENT.md).
 
 ## Abstract
 
