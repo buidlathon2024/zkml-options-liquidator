@@ -6,4 +6,4 @@
 source .env
 
 # To deploy and verify our contract
-forge script script/MockProtocol.s.sol:Deploy --rpc-url "https://goerli.optimism.io" --sender $SENDER --private-key $PRIVATE_KEY --broadcast -vvvv
+forge script script/MockProtocol.s.sol:Deploy --rpc-url "https://rpc.goerli.linea.build" --sender $SENDER --private-key $PRIVATE_KEY --broadcast -vvvv
