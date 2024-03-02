@@ -2,13 +2,13 @@
 
 ![zkML Options Liquidator Logo](zkml-liquidator-title.png)
 
-## Introduction
-
-The zkML Options Liquidator is a permissionless system designed to secure DeFi protocols by enabling the liquidation of delinquent options contracts through the use of Zero Knowledge Machine Learning (zkML). It leverages advanced cryptographic techniques to allow anyone to profit from liquidating at-risk positions while maintaining the protocol's integrity.
-
 ## Abstract
 
 This system addresses the challenge of calculating liquidation levels for complex financial instruments such as derivatives, options, and structured products. By employing zkML, it enables permissionless, trustless operations that safeguard honest participants and the protocol itself.
+
+## Introduction
+
+The zkML Options Liquidator is a permissionless system designed to secure DeFi protocols by enabling the liquidation of delinquent options contracts through the use of Zero Knowledge Machine Learning (zkML). It leverages advanced cryptographic techniques to allow anyone to profit from liquidating at-risk positions while maintaining the protocol's integrity.
 
 ## Tagline
 
@@ -38,5 +38,7 @@ Options trading on DeFi platforms requires intricate calculations for determinin
 ## Impact
 
 This project paves the way for innovative DeFi options protocols by enabling efficient, partially collateralized option writing. It addresses a critical gap in the current ecosystem, offering a solution that enhances liquidity pool stability and facilitates the emergence of new financial instruments.
+
+## Usage
 
 For further details on how to install, configure, and utilize the ZKML Options Liquidator, please refer to our [installation guide](HOWTO.md).
