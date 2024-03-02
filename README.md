@@ -2,6 +2,10 @@
 
 ![ZKML Options Liquidator Logo](zkml-liquidator-title.png)
 
+## Demo
+
+The YouTube video is [here](https://youtu.be/XTA-R8yXP2E). The downloadable video is [here](./demo/ZKML%20Options%20Liquidations.m4v).
+
 ## Abstract
 
 This system addresses the challenge of calculating liquidation levels for complex financial instruments such as derivatives, options, and structured products. By employing ZKML, it enables permissionless, trustless operations that safeguard honest participants and the protocol itself.
