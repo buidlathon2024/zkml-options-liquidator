@@ -14,16 +14,16 @@ contract MockProtocol {
 
     function liquidate(bytes calldata proof, uint256[] calldata instances) public returns (bool) {
         // Check the input before spending the gas to verify the proof
-        // if (1==2) {
-        //     // revert("Not delinquent!");
-        //     console.log("Not delinquent!");
-        // } else {
-        //     // Perform liquidation here
-        //     console.log("Liquidating...");
-        // }
+        if (instances[0] > 0x100) {
+            // revert("Not delinquent!");
+            console.log("Not delinquent!");
+        } else {
+            // Perform liquidation here
+            console.log("Liquidating...");
+        }
         bool success = verifier.verifyProof(proof, instances);
+        console.log("Proof verified: %s", success);
 
         return success;
-        // console.log("Proof verified: %s", success);
     }
 }
