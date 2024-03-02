@@ -33,8 +33,8 @@ Options trading on DeFi platforms requires intricate calculations for determinin
 
 ## Challenges Encountered
 
-- **Proving System Limitations**: Initial attempts at step-by-step AI inference emulation proved prohibitively expensive. Adoption of the [https://ezkl.xyz/](EZKL) system, optimized for matrix multiplication in ML, presented a viable alternative.
-- **Data Input Validation**: The absence of ZK-friendly oracles necessitated a novel approach to validating input data. We achieved this by verifying blockchain transaction signatures and generating ECDSA proofs with [https://brevis.network/](Brevis).
+- **Proving System Limitations**: Initial attempts at step-by-step AI inference emulation proved prohibitively expensive. Adoption of the [EZKL](https://ezkl.xyz/) system, optimized for matrix multiplication in ML, presented a viable alternative.
+- **Data Input Validation**: The absence of ZK-friendly oracles necessitated a novel approach to validating input data. We achieved this by verifying blockchain transaction signatures and generating ECDSA proofs with [Brevis](https://brevis.network/).
 - **Proof System Incompatibility**: Integrating disparate proving systems posed a significant challenge, addressed by employing a common Poseidon hash to ensure consistency across proofs.
 
 ## Impact
