@@ -1,5 +1,6 @@
 // Import ethers library
 const { ethers } = require('ethers');
+const { spawn } = require('child_process');
 
 require('dotenv').config();
 
@@ -24,7 +25,21 @@ contract.on('AnswerUpdated', (current, roundId, updatedAt, event) => {
     console.log(`Round ID: ${roundId.toString()}`);
     console.log(`Updated At: ${new Date(updatedAt.toNumber() * 1000).toLocaleString()}`);
     console.log(`Transaction hash: ${event.transactionHash}`);
+    
     // Call Brevis here to generate a proof
+    // const child = spawn('go', ['../cmd/main.go', 'prove']);
+
+    // child.stdout.on('data', (data) => {
+    //     console.log(`stdout: ${data}`);
+    // });
+    
+    // child.stderr.on('data', (data) => {
+    //     console.error(`stderr: ${data}`);
+    // });
+    
+    // child.on('close', (code) => {
+    //     console.log(`child process exited with code ${code}`);
+    // });
 });
 
 process.on('SIGINT', () => {
