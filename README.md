@@ -1,20 +1,18 @@
-# ZKML Options Liquidator
+# zkML Options Liquidator
 
-![ZKML Options Liquidator Logo](zkml-liquidator-title.png)
-
-For installation and usage instructions, see [here](HOWTO.md).
+![zkML Options Liquidator Logo](zkml-liquidator-title.png)
 
 ## Introduction
 
-The ZKML Options Liquidator is a permissionless system designed to secure DeFi protocols by enabling the liquidation of delinquent options contracts through the use of Zero Knowledge Machine Learning (ZKML). It leverages advanced cryptographic techniques to allow anyone to profit from liquidating at-risk positions while maintaining the protocol's integrity.
+The zkML Options Liquidator is a permissionless system designed to secure DeFi protocols by enabling the liquidation of delinquent options contracts through the use of Zero Knowledge Machine Learning (zkML). It leverages advanced cryptographic techniques to allow anyone to profit from liquidating at-risk positions while maintaining the protocol's integrity.
 
 ## Abstract
 
-This system addresses the challenge of calculating liquidation levels for complex financial instruments such as derivatives, options, and structured products. By employing ZKML, it enables permissionless, trustless operations that safeguard honest participants and the protocol itself.
+This system addresses the challenge of calculating liquidation levels for complex financial instruments such as derivatives, options, and structured products. By employing zkML, it enables permissionless, trustless operations that safeguard honest participants and the protocol itself.
 
 ## Tagline
 
-A Permissionless Options Liquidation system utilizing ZKML for validating complex off-chain calculations, enabling anyone to liquidate delinquent actors and protect the protocol.
+A Permissionless Options Liquidation system utilizing zkML for validating complex off-chain calculations, enabling anyone to liquidate delinquent actors and protect the protocol.
 
 ## Problem Statement
 
@@ -23,8 +21,8 @@ Options trading on DeFi platforms requires intricate calculations for determinin
 ## Solution Overview
 
 1. **AI Model Freezing**: We train an AI model for liquidation level calculations, freeze its state, and generate a hash of its configuration and weights.
-2. **Validity Proofs with ZKML**: For each calculation, we produce a ZK proof using the EZKL system to validate the computation without revealing the underlying data.
-3. **Input Data Verification**: Utilizing the Aztec Barretenberg proof system, we verify the authenticity of input data sourced from ChainLink price feeds through ECDSA signature proofs.
+2. **Validity Proofs with ZKML**: For each calculation, we produce a ZK proof using the [EZKL](https://ezkl.xyz/) system to validate the computation without revealing the underlying data.
+3. **Input Data Verification**: Utilizing the [Aztec Barretenberg](https://github.com/AztecProtocol/barretenberg) proof system, we verify the authenticity of input data sourced from [ChainLink price feeds](https://docs.chain.link/data-feeds/price-feeds) through ECDSA signature proofs.
 4. **Cross-Verifier Compatibility**: To reconcile differences between ZK systems, we employ a Poseidon hash as a shared input, allowing independent on-chain verification within a single Solidity function.
 
 ## Implementation Details
