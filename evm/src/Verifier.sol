@@ -214,7 +214,7 @@ contract Halo2Verifier {
 
             {
                 // Load vk_digest and num_instances of vk into memory
-                mstore(0x05a0, 0x23b3b4c9638f2fbbc818488195eb87cfe211105aa43a455b052d5a1afce5cd1e) // vk_digest
+                mstore(0x05a0, 0x07f49e597ab9e2942d03481d6e0ca5c59aee4dbd4dba028ca0b8ded7585d15dd) // vk_digest
                 mstore(0x05c0, 0x0000000000000000000000000000000000000000000000000000000000000001) // num_instances
 
                 // Check valid length of proof
@@ -314,7 +314,7 @@ contract Halo2Verifier {
                 success, proof_cptr, hash_mptr := read_ec_point(success, proof_cptr, hash_mptr, q) // W'
 
                 // Load full vk into memory
-                mstore(0x05a0, 0x23b3b4c9638f2fbbc818488195eb87cfe211105aa43a455b052d5a1afce5cd1e) // vk_digest
+                mstore(0x05a0, 0x07f49e597ab9e2942d03481d6e0ca5c59aee4dbd4dba028ca0b8ded7585d15dd) // vk_digest
                 mstore(0x05c0, 0x0000000000000000000000000000000000000000000000000000000000000001) // num_instances
                 mstore(0x05e0, 0x000000000000000000000000000000000000000000000000000000000000000b) // k
                 mstore(0x0600, 0x305e41e912d579f5b3193badcab128321c8ee1cb70aa396331b979553d820001) // n_inv
@@ -337,10 +337,10 @@ contract Halo2Verifier {
                 mstore(0x0820, 0x06ecdb9f9567f59ed2eee36e1e1d58797fd13cc97fafc2910f5e8a12f202fa9a) // neg_s_g2_y_2
                 mstore(0x0840, 0x0000000000000000000000000000000000000000000000000000000000000000) // fixed_comms[0].x
                 mstore(0x0860, 0x0000000000000000000000000000000000000000000000000000000000000000) // fixed_comms[0].y
-                mstore(0x0880, 0x16aa4bc2c88047a5a3fe4d53870533f037ffa88456fd39eaadafec353773faa9) // fixed_comms[1].x
-                mstore(0x08a0, 0x1e179ed2bc0411c6a1e731bf5b0e846925506a3f97b9a99f70ee2dc2237c8ab5) // fixed_comms[1].y
-                mstore(0x08c0, 0x01418a006e9371f01375be4e4bd6980d489afeb9fe0eb181f7a7d0c6eea0fe1d) // fixed_comms[2].x
-                mstore(0x08e0, 0x0ea5fbf6f07de803430b344766a6443f177be1f544cdd874293a34b9ee6c605e) // fixed_comms[2].y
+                mstore(0x0880, 0x1e75d9ebb9facd310e81657da9525403dfc7ce5b0159ac7e19a4aae6fbfe022d) // fixed_comms[1].x
+                mstore(0x08a0, 0x2dfdbf9a5a48159c5b1edddb516010ba16160871a8d386ca0575cd0b8aba2e87) // fixed_comms[1].y
+                mstore(0x08c0, 0x26b240653894496af1e15d310ebd9ba9516b9a458adc7738565c84757eaaa81b) // fixed_comms[2].x
+                mstore(0x08e0, 0x26620ef1c1609e0e27ee9bf0af3127318b48f85fde2e4c87456deb6b76c7f207) // fixed_comms[2].y
                 mstore(0x0900, 0x1bf816834ef874d24af50fab79ca6bece78a3cfec49d2f8ab6999cac8b668960) // fixed_comms[3].x
                 mstore(0x0920, 0x21a2739884a8582143e3a325c9b277430bc6fd8f5879d0139fd94fb2d3d41b3f) // fixed_comms[3].y
                 mstore(0x0940, 0x0000000000000000000000000000000000000000000000000000000000000000) // fixed_comms[4].x
@@ -862,7 +862,7 @@ contract Halo2Verifier {
                         let var2 := mulmod(var1, a_0, r)
                         let var3 := sub(r, var1)
                         let var4 := addmod(var0, var3, r)
-                        let var5 := 0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffc9
+                        let var5 := 0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffe1
                         let var6 := mulmod(var4, var5, r)
                         let var7 := addmod(var2, var6, r)
                         let a_4 := calldataload(0x0564)
@@ -915,7 +915,7 @@ contract Halo2Verifier {
                         let var2 := mulmod(var1, a_1, r)
                         let var3 := sub(r, var1)
                         let var4 := addmod(var0, var3, r)
-                        let var5 := 0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffc9
+                        let var5 := 0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593efffffe1
                         let var6 := mulmod(var4, var5, r)
                         let var7 := addmod(var2, var6, r)
                         let a_5 := calldataload(0x0584)
