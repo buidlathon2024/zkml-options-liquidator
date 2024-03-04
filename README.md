@@ -1,4 +1,4 @@
-[This project](https://devfolio.co/projects/zkml-options-liquidator-055b) won the following prizes at [ETHDenver Buidlathon 2024](https://www.ethdenver.com/buidlathon):
+[This project](https://devfolio.co/projects/zkml-options-liquidator-055b) won the following prizes at the [ETHDenver Buidlathon 2024](https://www.ethdenver.com/buidlathon):
 
 - [Linea, Build on Linea, First Prize](https://ethdenver2024.devfolio.co/projects?prizes=2b10202901254f0b89797dcfdf8903ab)
 
