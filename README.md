@@ -1,12 +1,12 @@
 [This project](https://devfolio.co/projects/zkml-options-liquidator-055b) won the following prizes at the [ETHDenver Buidlathon 2024](https://www.ethdenver.com/buidlathon):
 
-- [Linea, Build on Linea, First Prize](https://ethdenver2024.devfolio.co/projects?prizes=2b10202901254f0b89797dcfdf8903ab)
+- 🥇 [Arbitrum, Best DeFi Project, First Place](https://ethdenver2024.devfolio.co/projects?prizes=acb6a5b38f6643f0921ff516e50bb64d)
 
-- [Arbitrum, Best DeFi Project, First Place](https://ethdenver2024.devfolio.co/projects?prizes=acb6a5b38f6643f0921ff516e50bb64d)
+- 🥉 [Hedera, Data-Driven DeFi: Revolutionize Finance with Oracle Feeds, Third Place](https://ethdenver2024.devfolio.co/projects?prizes=6baabf87eaa24d73a6ffbbe93a6af671)
 
-- [Hedera, Data-Driven DeFi: Revolutionize Finance with Oracle Feeds, Third Place](https://ethdenver2024.devfolio.co/projects?prizes=6baabf87eaa24d73a6ffbbe93a6af671)
+- 🥉 [Brevis, Build Data-driven dApps with Brevis ZK Coprocessor, Third Place](https://ethdenver2024.devfolio.co/projects?prizes=4cdb75c8d2b24ef0bf9fb30d88785912)
 
-- [Brevis, Build Data-driven dApps with Brevis ZK Coprocessor, Third Place](https://ethdenver2024.devfolio.co/projects?prizes=4cdb75c8d2b24ef0bf9fb30d88785912)
+- [Linea, Build on Linea, Prize(s)](https://ethdenver2024.devfolio.co/projects?prizes=2b10202901254f0b89797dcfdf8903ab)
 
 ----
 
