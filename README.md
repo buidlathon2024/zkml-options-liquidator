@@ -1,4 +1,4 @@
-[This project](https://devfolio.co/projects/zkml-options-liquidator-055b) won the following prizes at the [ETHDenver Buidlathon 2024](https://www.ethdenver.com/buidlathon):
+[This project](https://devfolio.co/projects/zkml-options-liquidator-055b) won the following prizes at the [ETHDenver 2024](https://ethdenver2024.devfolio.co/overview):
 
 - 🥇 [Arbitrum, Best DeFi Project, First Place](https://ethdenver2024.devfolio.co/projects?prizes=acb6a5b38f6643f0921ff516e50bb64d)
 
